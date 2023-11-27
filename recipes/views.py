@@ -18,9 +18,3 @@ def home(request):
         'name': 'Diego!',
         'periodo': horas()
     })
-
-def contato(request):
-    return render(request, 'me-apague/temp.html')
-
-def sobre(request):
-    return HttpResponse('SOBRE')
